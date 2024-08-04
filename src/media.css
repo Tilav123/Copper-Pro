@@ -332,6 +332,9 @@
     .title_of_section {
         font-size: 30px;
     }
+    .purchase_img {
+        height: 401px;
+    }
 }
 @media only screen and (max-width: 350px) {
     .heading_of_advertisement {

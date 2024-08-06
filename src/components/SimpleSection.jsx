@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PurchaseItem from '/PurchaseItem';
+import PurchaseItem from './PurchaseItem';
 function SimpleSection(title) {
   let purchases = [
     {

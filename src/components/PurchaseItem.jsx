@@ -7,8 +7,8 @@ function PurchaseItem({ purchases }) {
         <>
             <div className={"purchase_child" + purchases.classof}>
                 <div className="like_box" onClick={clickOnLike}>
-                    <img src="./heart.png" className="like" />
-                    <img src="./heart2.png" className="like_act" />
+                    <img src="/heart.png" className="like" />
+                    <img src="/heart2.png" className="like_act" />
                 </div>
                 <img src={purchases.img} className="purchase_img" />
                 <div className="purchase_content">

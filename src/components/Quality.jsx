@@ -10,7 +10,7 @@ function Quality({ quality_information }) {
                 <p className="quality_text">{quality_information.text}</p>
                 <div className="read_more_box">
                     <p className="quality_text read_more">Читать больше</p>
-                    <img src="./vector.png" alt="" className="quality_vector" />
+                    <img src="/vector.png" alt="" className="quality_vector" />
                 </div>
             </div>
         </>

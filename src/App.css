@@ -15,14 +15,14 @@
 body,
 button,
 a {
-  cursor: url('./cursor.png'), auto;
+  cursor: url('/cursor.png'), auto;
 }
 
 .main_block {
   height: 100vh;
   max-height: 896px;
   width: 100%;
-  background: url('./MainBlock.png') no-repeat center;
+  background: url('/MainBlock.png') no-repeat center;
   background-size: cover;
   overflow: hidden;
   z-index: 3;
@@ -42,7 +42,7 @@ a {
   z-index: -1;
   opacity: 10%;
   position: absolute;
-  background: url('./badnet.png') no-repeat center;
+  background: url('/badnet.png') no-repeat center;
   background-size: cover;
 }
 
@@ -106,7 +106,7 @@ header {
   top: -76px;
   z-index: -5;
   right: -555px;
-  background: url('./belowMainBlock.jfif') no-repeat center center;
+  background: url('/belowMainBlock.jfif') no-repeat center center;
   background-size: cover;
 }
 
@@ -130,7 +130,7 @@ header {
   height: 160px;
   width: 471.68px;
   z-index: 1;
-  background: url('./thefloor.png') no-repeat center;
+  background: url('/thefloor.png') no-repeat center;
   background-size: contain;
   animation-name: araise;
   animation-duration: 2s;
@@ -162,7 +162,7 @@ header {
 
 .parfum::after {
   content: '';
-  background: url('./theshadow.png') no-repeat center;
+  background: url('/theshadow.png') no-repeat center;
   background-size: cover;
   width: 273px;
   position: absolute;
@@ -574,7 +574,7 @@ header {
 }
 
 .gray_section {
-  background: url(./gray_section.png) no-repeat center;
+  background: url(/gray_section.png) no-repeat center;
   background-size: cover;
 }
 
@@ -691,7 +691,7 @@ header {
   height: 483px;
   position: relative;
   overflow: hidden;
-  background: url('../advertisement.png') no-repeat 60%;
+  background: url('/advertisement.png') no-repeat 60%;
   background-size: cover;
 }
 
@@ -733,7 +733,7 @@ header {
   width: 245px;
   height: 80px;
   position: relative;
-  background: url('./thefloor.png') no-repeat center;
+  background: url('/thefloor.png') no-repeat center;
   background-size: contain;
 }
 
@@ -781,7 +781,7 @@ header {
   z-index: 3;
   right: 0;
   top: 0;
-  background: url('../quotes.png') no-repeat center;
+  background: url('/quotes.png') no-repeat center;
   background-size: cover;
 }
 
@@ -874,7 +874,7 @@ footer{
   min-height: 375px;
   position: relative;
   overflow: hidden;
-  background: url(./MainBlock.png) no-repeat center;
+  background: url(/MainBlock.png) no-repeat center;
   background-size: cover;
 }
 
@@ -886,7 +886,7 @@ footer::after{
   z-index: 0;
   opacity: 10%;
   position: absolute;
-  background: url(./badnet.png) no-repeat center;
+  background: url(/badnet.png) no-repeat center;
   background-size: cover;
 }
 footer .circle{
@@ -972,7 +972,7 @@ footer .circle{
   width: 100%;
   opacity: 80%;
   height: 100%;
-  background: url(./MainBlock.png) no-repeat center;
+  background: url(/MainBlock.png) no-repeat center;
   background-size: cover;
 }
 .discount_problem::before{
@@ -983,7 +983,7 @@ footer .circle{
   z-index: 0;
   opacity: 10%;
   position: absolute;
-  background: url(./badnet.png) no-repeat center;
+  background: url(/badnet.png) no-repeat center;
   background-size: cover;
 }
 .discount_item::after{

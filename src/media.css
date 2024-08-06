@@ -202,6 +202,9 @@
         width: 844px;
         height: 844px;
     }
+    .purchase_img{
+        height: 401px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -339,5 +342,23 @@
 @media only screen and (max-width: 350px) {
     .heading_of_advertisement {
         font-size: 70px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .product_item {
+        min-height: 320px;
+    }
+    .purchase_img {
+        height: 321px;
+    }
+    .purchase_child{
+        min-height: 457px;
+    }
+    .purchase_content{
+        gap: 10px;
+    }
+    .comment_item{
+        padding: 20px;
     }
 }

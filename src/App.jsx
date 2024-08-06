@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 
 function App() {
   function PerfumTie(e) {
-    e.target.classList.toggle('anactive')
+    e.target.classList.toggle('anactive') 
   }
   let ourProducts = [
     {
